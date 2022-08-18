@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZ5c4E4uzzXxxt2Fng6GPhoSx1e9_wOOM&callback=initMap">
+        </script>
+</head>
+
+<body>
+    <!-- Header Area Start -->
+    <nav class="navbar-area">
+
+        <!-- Start Top Search -->
+        <div class="top-search">
+            <div class="container">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                    <input type="text" class="form-control" placeholder="Search">
+                    <span class="input-group-addon"><i class="fa fa-times"></i></span>
+                </div>
+            </div>
+        </div>
+        <!-- End Top Search -->
+
+        <!-- Start Atribute Navigation -->
+        <div class="header-area">
+            <div class="container">
+                <div class="attr-nav">
+                    <ul>
+                        <li class="search"><a href="#"><i class="fa fa-fw fa-search"></i></a></li>
+                        <li class="dropdown">
+                            <a href="#">
+                                <i class="fa fa-fw fa-cart-arrow-down"></i>
+                                <span class="badge">3</span>
+                            </a>
+                            <ul class="dropdown-menu cart-list">
+                                <div id="buyItems">
+
+                                </div>
+                                <li class="total">
+                                    <span id="sum-prices"></span>
+                                    <a href="listcart.html" class="btn checkout hidden btn-cart">Cart</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- <li class="user"><a href="#"><i class="fa fa-fw fa-user"></i></a></li> -->
+                    </ul>
+                </div>
+                <!-- End Atribute Navigation -->
+
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-togger">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a href="index.html" class="navbar-brand">
+                        <img src="assets/images/1.png" alt="" class="logo">
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Menu Navigation Start -->
+                <div class="navbar-menu">
+                    <ul class="navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#men">Men's</a></li>
+                        <li><a href="#women">Women's</a></li>
+                        <li><a href="#kids">Kid's</a></li>
+                        <li class="submenu">
+                            <a href="#">Page</a>
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="products.html">Products</a></li>
+                                <li><a href="single-product.html">Single Producs</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#explore">Explore</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+                <!-- Menu Navigation End -->
+            </div>
+        </div>
+        <!-- End Atribute Navigation -->
+    </nav>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="page-heading about-page-heading" id="top">
+        <div class="us-page-heading">
+            <img src="./assets/images/single-product-02.jpg" alt="">
+            <div class="container">
+                <div class="inner-content">
+                    <h2> Single Product Page</h2>
+                    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- ***** Product Area Starts ***** -->
+    <div class="single-product single-product-page section">
+        <div class="container">
+            <div class="product-row">
+                <div class="product-details">
+                    <div class="single-product-view">
+                        <div class="product-row">
+                            <div class="part-img">
+                                <div class="product-slider">
+                                    <img src="./assets/images/men-01.jpg" alt="card image cap">
+                                </div>
+                                <div class="product-row">
+                                    <div class="carousel-multi-item">
+                                        <div class="carousel-inner carousel_js">
+                                            <div class="carousel-item">
+                                                <img src="assets/images/men-01.jpg" alt="">
+                                                <img src="assets/images/men-02.jpg" alt="">
+                                                <img src="assets/images/men-03.jpg" alt="">
+                                                <img src="assets/images/men-01.jpg" alt="">
+                                                <img src="assets/images/men-02.jpg" alt="">
+                                                <img src="assets/images/men-03.jpg" alt="">
+                                                <img src="assets/images/men-01.jpg" alt="">
+                                                <img src="assets/images/men-02.jpg" alt="">
+                                                <img src="assets/images/men-03.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="nav-button">
+                                            <button type="button" class="prev"></button>
+                                            <button type="button" class="next"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-card">
+                    <div class="card-body">
+                        <ul>
+                            <li>
+                                <h1>Active Wear</h1>
+                            </li>
+                            <li><span>$120.00</span></li>
+                        </ul>
+                        <ul class="f-star">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><span>Rating 4.8 | 36 Comments</span></li>
+                        </ul>
+                        <ul class="select-swap">
+                            <li><label class="btn active">S</label></li>
+                            <li><label class="btn">M</label></li>
+                            <li><label class="btn">L</label></li>
+                            <li><label class="btn">XL</label></li>
+                            <li><label class="btn">XXL</label></li>
+                        </ul>
+                        <ul class="select-color ">
+                            <li><button class="btn active">White</button></li>
+                            <li><button class="btn">Black</button></li>
+                        </ul>
+                        <ul class="quantity-area">
+                            <li><input type="button" class="btn" value="-"></li>
+                            <li><input type="text" value="1" size="4" class="badge"></li>
+                            <li><input type="button" class="btn" value="+"></li>
+                        </ul>
+                        <ul class="wrap-addcart">
+                            <li><a href="" class="btn">Buy now</a></li>
+                            <li><a href="" class="btn">Add To Cart</a></li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h4>Description : </h4>
+                            </li>
+                            <li>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In aliquid laborum nesciunt
+                                    labore
+                                    voluptatum, voluptatibus dicta illum voluptates aspernatur necessitatibus eum
+                                    laboriosam
+                                    similique quod ullam perspiciatis possimus perferendis voluptatem molestias.</p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h4>Special Characteristics : </h4>
+                            </li>
+                            <li>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </li>
+                            <li>
+                                <p>Eum numquam corrupti laudantium labore.</p>
+                            </li>
+                            <li>
+                                <p>Aspernatur dolorem eligendi sequi possimus consequatur in obcaecati qui iste alias
+                                    soluta asperiores voluptate sit, iusto neque.</p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h4>Stogare Instructions : </h4>
+                            </li>
+                            <li>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </li>
+                            <li>
+                                <p>Eum numquam corrupti laudantium labore.</p>
+                            </li>
+                            <li>
+                                <p>Aspernatur dolorem eligendi sequi possimus consequatur in obcaecati qui iste alias
+                                    soluta asperiores voluptate sit, iusto neque.</p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Product Area Ends ***** -->
+
+    <section class="section" id="men">
+        <div class="container">
+            <div class="section-top">
+                <div class="section-heading">
+                    <h2>Men's Latest</h2>
+                    <span>Details to details is what makes Hexashop different from the other themes.</span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="men-container">
+                <div class="men-item-carousel carousel_js">
+                    <div class="men-item ">
+                        <div class="item">
+                            <div class="item-content">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><button><i class="fa fa-star"></i></button></li>
+                                        <li><button class="addTocart fa fa-shopping-cart" data-product-id="1"></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="single-product.html">
+                                    <img src="assets/images/men-01.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="down-content">
+                                <a href="single-product.html">
+                                    <h4 class="productName">Classic Sping 1 </h4>
+                                </a>
+
+                                <h6>$<span class="priceValue">120.00</span></h6>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-content">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><button><i class="fa fa-star"></i></button></li>
+                                        <li><button class="addTocart fa fa-shopping-cart" data-product-id="1"></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="single-product.html"><img src="assets/images/men-01.jpg" alt=""></a>
+                            </div>
+                            <div class="down-content">
+                                <a href="single-product.html">
+                                    <h4 class="productName">Classic Sping 1</h4>
+                                </a>
+
+                                <h6>$<span class="priceValue">120.00</span></h6>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-content">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><button><i class="fa fa-star"></i></button></li>
+                                        <li><button class="addTocart fa fa-shopping-cart" data-product-id="2"></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="single-product.html"><img src="assets/images/men-01.jpg" alt=""></a>
+                            </div>
+                            <div class="down-content">
+                                <a href="single-product.html">
+                                    <h4 class="productName">Classic Sping 1</h4>
+                                </a>
+                                <h6>$<span class="priceValue">120.00</span></h6>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-content">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><button><i class="fa fa-star"></i></button></li>
+                                        <li><button class="addTocart fa fa-shopping-cart" data-product-id="3"></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="single-product.html"><img src="assets/images/men-01.jpg" alt=""></a>
+                            </div>
+                            <div class="down-content">
+                                <a href="single-product.html">
+                                    <h4 class="productName">Classic Sping 1</h4>
+                                </a>
+                                <h6>$<span class="priceValue">120.00</span></h6>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-content">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><button><i class="fa fa-star"></i></button></li>
+                                        <li><button class="addTocart fa fa-shopping-cart" data-product-id="4"></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="single-product.html"><img src="assets/images/men-02.jpg" alt=""></a>
+                            </div>
+                            <div class="down-content">
+                                <a href="single-product.html">
+                                    <h4 class="productName">Classic Sping 1</h4>
+                                </a>
+                                <h6>$<span class="priceValue">120.00</span></h6>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-content">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><button><i class="fa fa-star"></i></button></li>
+                                        <li><button class="addTocart fa fa-shopping-cart" data-product-id="5"></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="single-product.html"><img src="assets/images/men-03.jpg" alt=""></a>
+                            </div>
+                            <div class="down-content">
+                                <a href="single-product.html">
+                                    <h4 class="productName">Classic Sping 1</h4>
+                                </a>
+                                <h6>$<span class="priceValue">120.00</span></h6>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-content">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><button><i class="fa fa-star"></i></button></li>
+                                        <li><button class="addTocart fa fa-shopping-cart" data-product-id="6"></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="single-product.html"><img src="assets/images/men-01.jpg" alt=""></a>
+                            </div>
+                            <div class="down-content">
+                                <a href="single-product.html">
+                                    <h4 class="productName">Classic Sping 1</h4>
+                                </a>
+                                <h6>$<span class="priceValue">120.00</span></h6>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-content">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><button><i class="fa fa-star"></i></button></li>
+                                        <li><button class="addTocart fa fa-shopping-cart" data-product-id="7"></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="single-product.html"><img src="assets/images/men-02.jpg" alt=""></a>
+                            </div>
+                            <div class="down-content">
+                                <a href="single-product.html">
+                                    <h4 class="productName">Classic Sping 1</h4>
+                                </a>
+                                <h6>$<span class="priceValue">120.00</span></h6>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-content">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><button><i class="fa fa-star"></i></button></li>
+                                        <li><button class="addTocart fa fa-shopping-cart" data-product-id="8"></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="single-product.html"><img src="assets/images/men-03.jpg" alt=""></a>
+                            </div>
+                            <div class="down-content">
+                                <a href="single-product.html">
+                                    <h4 class="productName">Classic Sping 1</h4>
+                                </a>
+                                <h6>$<span class="priceValue">120.00</span></h6>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-button">
+                    <button type="button" class="prev"></button>
+                    <button type="button" class="next"></button>
+                </div>
+            </div>
+            <div class="more">
+                <a href="products.html" class="btn btn-more">view more</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="main-footer">
+                <div class="footer-row">
+                    <div class="footer-col">
+                        <div class="first-item">
+                            <div class="logo">
+                                <img src="assets/images/2.png" alt="hexashop">
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</a>
+                                </li>
+                                <li>
+                                    <a href="#">hexa@compay.com</a>
+                                </li>
+                                <li>
+                                    <a href="#">010-020-0340</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Shopping &amp; Categories</h4>
+                        <ul>
+                            <li><a href="#">Men's Shopping</a></li>
+                            <li><a href="#">Women’s's Shopping</a></li>
+                            <li><a href="#">Kid's Shopping</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><a href="#">Homepage</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Help &amp; Information</h4>
+                        <ul>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">FAQ's</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Tracking ID</a></li>
+                        </ul>
+                    </div>
+                    <div class="under-footer">
+                        <p>Copyright © 2022.
+                        </p>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-vimeo-v"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/shoppingCart.js"></script>
+</body>
+
+</html>
