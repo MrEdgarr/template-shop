@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var Submenu = document.querySelector('.submenu')
     var Submenu_in = document.querySelector('.submenu ul')
     var Navbar_togger = document.querySelector('.navbar-togger')
-    var Click_cart = document.querySelector('.dropdown a')
+    var Click_cart = document.querySelector('.dropdown>i')
     var Dropdown_cart = document.querySelector('.dropdown-menu')
     var Search = document.querySelector('.search .fa-search')
     var Top_Search = document.querySelector('.top-search')

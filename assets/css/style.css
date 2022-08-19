@@ -245,7 +245,7 @@ Button
     display: block;
 }
 
-.attr-nav>ul>li>a {
+.attr-nav>ul>li {
     display: block;
     padding: 28px 15px;
     position: relative;
@@ -268,7 +268,7 @@ Button
     border-radius: 10px;
 }
 
-.attr-nav>ul>li>a span.badge {
+.attr-nav>ul>li span.badge {
     position: absolute;
     top: 50%;
     right: 5px;

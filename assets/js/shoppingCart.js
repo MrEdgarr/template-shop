@@ -104,13 +104,14 @@ parentElement.onclick = (e) => {  // last
                 } else if (isMinusButton) {
                     productsInCart[i].count -= 1
                 }
+                if (isCloseButton) {
+                    // productsInCart.splice(i, 1)
+                    productsInCart[i].count = 0;
+                }
                 productsInCart[i].price = productsInCart[i].basePrice * productsInCart[i].count;
             }
             if (productsInCart[i].count <= 0) {
                 productsInCart.splice(i, 1);
-            }
-            if (isCloseButton) {
-                productsInCart.splice(i, 1)
             }
         }
         updateShoppingCartHTML();

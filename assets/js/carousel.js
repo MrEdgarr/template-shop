@@ -56,11 +56,9 @@ document.addEventListener('DOMContentLoaded', function () {
         let containerWidth = dimensition.width;
         nxtBtn[i].onclick = () => {
             item.scrollLeft += containerWidth
-            console.log('ok');
         }
         preBtn[i].onclick = () => {
             item.scrollLeft -= containerWidth
-            console.log('ok');
         }
     })
     // Slider item product end
