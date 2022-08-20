@@ -29,9 +29,6 @@ document.addEventListener('DOMContentLoaded', function () {
     Submenu.onclick = function () {
         Submenu_in.classList.toggle('in');
     }
-    // Submenu.onmouseout = () => {
-    //     Submenu_in.classList.remove('in')
-    // }
 
 
     //CART
